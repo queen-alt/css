@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5fdcf;
+    color: #333;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    background-color: brown;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+#Announcement {
+    background-color: yellow;
+}
+
+marquee {
+    font-weight: 700;
+    padding: 12px 0px;
+}
+
+#filter-bar {
+    text-align: center;
+    background-color: red;
+    color: #333;
+    padding: 1em;
+   
+}
+
+#filter-bar h4,
+#filter-bar ul,
+#filter-bar li {
+    display: inline-block;
+}
+
+.filter-item {
+    background-color: white;
+    padding: 8px;
+    margin: 0px 0px;
+    border-radius: 8px;
+}
+
+aside {
+    display: inline-block;
+    width: 20%;
+    padding: 2em;
+    background-color: #f0e68f;
+    vertical-align: top;
+}
+
+aside ul {
+    list-style-type: none;
+}
+
+aside li {
+    padding: 0.em;
+}
+
+aside a {
+    text-decoration: none;
+}
+
+main {
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+    padding: 0px 1em;
+}
+
+main h2 {
+    margin-bottom: 10px;
+}
+
+.product-item {
+    background-color: white;
+    border: 1px;
+    border-style: solid;
+    border-color: #ddd;
+    border-radius: 8px;
+    width: 200px;
+    display: inline-block;
+    padding: 1em;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.product-item img {
+    width: 150px;
+    height: 150px;
+}
+
+.product-item h3,
+.filter-item p {
+    width: 100%;
+}
+
+.price {
+    color: green;
+    margin: 10px 0;
+}
+
+.buy-btn {
+    background-color: #1575fe;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+footer {
+    background-color: #333;
+    padding: 1em;
+    color: white;
+    text-align: center;
+}
